@@ -1,0 +1,30 @@
+CSS层叠样式表
+1.使用css样式的方式
+	HTML<!DOCTYPE>声明标签
+		定义和用法
+			<!DOCTYPE>声明必须是HTML文档的第一行，位于<html>标签之前
+			<!DOCTYPE>声明不是HTML标签；它是指示web浏览器关于页面使用哪个html版本进行编写的指令
+			在html4.01中，<!DOCTYPE>声明引用DTD，因为HTML4.01基于SGML。
+			DTD规定了标记语言的规则，这样浏览器才能正确的呈现内容。
+			html5不基于SGML，所以不需要引用DTD。
+		各版本的声明
+			html5
+				<!DOCTYPE html>
+				<meta charset="utf-8">
+			html4.01
+				<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+				该DTD包含所有HTML元素和属性，包括展示性的和弃用的元素（比如font）。不允许框架集（frameset/）
+				<meta http-equiv=Content-Type content="text/html;charset=utf-8">
+				注意的规则：
+					单标记必须闭合 比如<br>必须写成<br/>
+					单属性必须添加属性值
+					标记和属性必须使用小写
+					属性的属性必须使用""
+	内链样式表
+		<body style="background-color:green;margin:0;padding:0;"></body>
+	嵌入式样式表
+		<style  type="text/css"></style>
+		需要将样式放在<head></head>
+	引入式样式表
+		需要将样式放在<head></head>
+		<link rel="StyleSheet" type="text/css" href="style.css">
