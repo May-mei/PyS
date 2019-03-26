@@ -1,0 +1,32 @@
+/*通用样式*/
+body{
+	margin:0;
+	font:14px/24px 'Microsoft YaHei';
+}
+.wp{
+	width:960px;
+	margin:0 auto;
+}
+.x{
+	float:left;
+}
+.y{
+	float:right;
+}
+.z{
+	float:both;
+}
+.top{
+	width:100%;
+	height:24px;
+	line-height:24px;
+	background:#303030;
+	color:#d8d8d8;
+}
+.top a{
+	color:#d8d8d8;
+	text-decoration:none;
+}
+.top a:hover{
+	color:#f60;
+}

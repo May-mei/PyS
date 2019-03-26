@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--<title>定义css样式（css选择器）</title>-->
+		<title>定义css常见属性（边框属性）</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+		<!--	p{color:#ff6600;}-->
+			div{
+				width:50px;
+				height:50px;
+				float:left;
+				margin-right:10px;
+				background-color:#f60;
+				border-color:green blue;
+				<!--border-style:solid;-->
+			}
+			.div0{
+				border-top-style:solid;
+				border-width:5px;				
+			}			
+			.div1{
+				border-top-style:solid;
+				border-width:medium;				
+			}
+			.div2{
+				border-bottom-style:dashed;
+			}
+			.div3{
+				border-left-style:dotted;
+			}	
+			.div4{
+				border-right-style:double;
+			}	
+			.div5,.div6,.div7,.div8{
+				border-width:20px;
+				width:40px;
+				height:40px;
+				background-color:none;
+				border-color:#aaa #bbb #ccc #ddd
+			}	
+			.div5{
+				border-style:groove;
+			}	
+			.div6{
+				border-style:ridge;
+			}	
+			.div7{
+				border-style:inset;
+			}	
+			.div8{
+				border-style:outset;
+			}	
+			
+		</style>
+	</head>
+	<body>
+		<div class="div0"></div>
+		<div class="div1">solid</div>
+		<div class="div2">dashed</div>
+		<div class="div3">dotted</div>
+		<div class="div4">double</div>
+		<div class="div5">凸槽边框</div>
+		<div class="div6">垄状边框</div>
+		<div class="div7">inset边框</div>
+		<div class="div8">outset边框</div>
+		<div class="div9"></div>
+	</body>
+</html>

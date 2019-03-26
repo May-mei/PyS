@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DIV+CSS布局</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			body{
+				padding:0;
+				margin:0;
+			}
+			<!--.div{
+				width:300px;
+				height:300px;
+				background-color:green;
+				position:relative;
+				left:10px;
+				top:10px;
+			}
+			span{
+				position:absolute;
+				background-color:#ff6600；
+				color:#fff;
+				top:10px;
+				left:10px;
+			}
+			.fixed{
+				position:fixed;
+				background-color:#ff6600;
+				color:#fff;
+				top:100px;
+				left:10px;
+				z-index:1;
+			}
+			div{
+				background:green;
+				display:inline;
+			}
+			span{
+				background-color:red;
+				display:block;
+				top:30px;
+				width:150px;
+			}-->
+			.div{
+				width:960px;
+				height:600px;
+
+				background-color:#fff;
+			}
+			.left{
+				float:left;
+				width:260px;
+				height:460px;
+				background:#ccc;
+			}			
+			.right{
+				float:right;
+				width:670px;
+				height:460px;
+				background:#ddd;
+				margin-bottom:10px;
+			}			
+			.bottom{
+				margin-top:10px;
+				width:960px;
+				height:200px;				
+				background:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--div class="fixed">
+			<p>联系电话：111111</p>
+			<p>联系QQ：88888888</p>
+			<p>联系地址：上海市普陀区</p>
+		</div>
+		<div class="div">
+			<span>浏览次数：222</span>
+		</div>
+		<div>麦子学院</div>
+		<div>麦子学院</div>
+		<div>麦子学院</div>
+		<span>mai zi xue yuan</span>
+		<span>mai zi xue yuan</span>
+		<span>mai zi xue yuan</span-->
+		<div class="div">
+			<div class="left"></div>
+			<div class="right"></div>
+			<div class="bottom"></div>
+		</div>
+	</body>
+</html>
